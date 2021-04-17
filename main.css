@@ -286,10 +286,10 @@ font-family: 'Lato', sans-serif;
     cursor: pointer;
     height: 12px;
     width: 12px;
-    margin: 0 3px;
+    margin: 0 5px;
     transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
     background-color: none;
-    border: 0.1rem solid #FFFFFF;
+    border: 1px solid #FFFFFF;
     display: inline-block;
     transition: background-color 0.2s ease;
     z-index: 9999;
@@ -297,7 +297,7 @@ font-family: 'Lato', sans-serif;
   
   .active{
     background-color: #FFFFFF;
-    border: 2px solid #FFFFFF; 
+    border: 1px solid #FFFFFF; 
   }
 
   /* the end of gallary */
