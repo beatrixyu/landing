@@ -618,7 +618,7 @@ html {
 }
 
 .callBtn p {
-    font-family: 'Bellefair', 'Regular';    
+    font-family: 'Bellefair';    
     font-weight: 300;
     font-size: 30px;
     margin: 0;
@@ -628,3 +628,68 @@ html {
 }
 
 /* the end of contactsContainer  */
+
+/* footer */
+footer{
+    height: 20vh;
+    color: #000000;
+    font-family: 'Bellefair'; 
+    display: flex;
+    justify-content: center;
+}
+
+footer main{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+footer p{
+    font-size: 15px;
+    line-height: 18px;
+    margin: 5px;
+}
+
+.footerText {
+    border-top: 10%;
+    height: 50%;
+}
+
+.email:link {
+    color: #000000;
+    text-decoration: #000000
+  }
+
+  .clickUpBtn {
+    width: 55px;
+    height: 55px; 
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.arrowUpContainer  {
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+    border: 2px solid #6B6B6B; 
+}
+
+.arrowUp {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrowUp i{
+    font-size: 10px;
+    color: #6B6B6B;
+    z-index: 99; 
+}
+
