@@ -191,7 +191,7 @@ html {
 /* introduction part container 1 */
 .container-1{
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     display: flex;
 }
 /* 1210 */
@@ -234,17 +234,21 @@ html {
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .con1-right article{
-    width:80%;
-    margin-bottom: 20%;
+    width: 75%;
+    margin-bottom: 15%;
+}
+
+.con1-right-img-div {
+    display: flex;
 }
 
 .con1-right img{
-    width: 45%;
-    justify-content:center;
+    width: 43%;
+    margin-left: 15%;
 }
 
 .con1-right article p{
@@ -261,7 +265,7 @@ html {
 /* the begin of gallary slideshow */
 .gallary {
     width: 100%;
-    height: 90vh;
+    height: 80vh;
 } 
 /* slideshow */
 .slideshow-container {
@@ -295,3 +299,157 @@ html {
     background-color: #FFFFFF;
     border: 2px solid #FFFFFF; 
   }
+
+  /* the end of gallary */
+  /* the begin of container 2 */
+
+ .container-2 main {
+    width: 100%;
+    height: 70vh; 
+    display: flex;
+    justify-content: center;
+ } 
+
+.container-2 main article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+}  
+
+.container-2 main article h1{
+    font-size: 40px;
+    font-family: 'Bellefair', serif;    
+    font-weight: 300;
+    margin: 2% 0 5% 0;
+    align-items: flex-start;
+}
+
+.con2-art1 {
+    height: 60vh;
+}
+
+.con2-sec1-left {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.con2-sec1-img1{
+    width: 45%;
+    margin-bottom: 5%;
+}
+
+.con2-sec1-img2{
+    position: absolute;
+    width: 40%;
+    margin-left: -5%;
+}
+
+.con2-text1{
+    width: 60%;
+    text-align: left;
+    align-items: center;
+}
+
+.con2-text1 h1 {
+    font-size: 40px;
+    font-family: 'Bellefair', serif;    
+    font-weight: 300;
+    margin: 10% 0 5% 0;
+    text-transform: uppercase;
+}
+
+.con2-text1 p {
+    margin-left: 70px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #6B6B6B;
+    line-height: 25px;
+    text-align: left;
+}
+
+.con2-sec1-img2{
+    position: relative;
+  }
+
+.con2-art2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 55vh !important;
+  }
+
+.con2-text2 {
+    width: 70%;
+    margin-left: 20%;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+ }
+
+.con2-text2 h1 {
+    font-size: 40px;
+    font-family: 'Bellefair', serif;    
+    font-weight: 300;
+    margin: 10% 0 5% 0;
+    text-transform: uppercase;
+}
+
+.con2-text2 p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #6B6B6B;
+    line-height: 25px;
+    text-align: left;
+}
+
+.con2-sec2-img-div {
+    height: 55vh;
+    width: 50%;
+}
+
+.con2-sec2-img {
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.con2-text3{
+    width: 70%;
+    text-align: left;
+    margin-top: -30%;
+    }
+    
+.con2-text3 h1 {
+    margin-left: 70px !important;
+    font-size: 40px;
+    font-family: 'Bellefair', serif;    
+    font-weight: 300;
+    margin: 10% 0 5% 0;
+    text-transform: uppercase;
+}
+
+.con2-text3 p {
+    margin-left: 70px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #6B6B6B;
+    line-height: 25px;
+    text-align: left;
+}
+
+.con2-sec3-img-div{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.con2-sec3-img{
+    width: 80%;
+    justify-content: flex-end;
+}
+
+/* the end of container two */
