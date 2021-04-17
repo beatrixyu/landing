@@ -664,7 +664,6 @@ footer p{
   .clickUpBtn {
     width: 55px;
     height: 55px; 
-    margin-bottom: 30px;
     display: flex;
     justify-content: center;
 }
