@@ -229,7 +229,6 @@ html {
     text-align: left;
 }
 
-
 .con1-right{
     width: 50%;
     display: flex;
@@ -246,7 +245,6 @@ html {
 .con1-right img{
     width: 45%;
     justify-content:center;
-
 }
 
 .con1-right article p{
@@ -260,3 +258,40 @@ html {
 
 /* the end of container one */
 
+/* the begin of gallary slideshow */
+.gallary {
+    width: 100%;
+    height: 90vh;
+} 
+/* slideshow */
+.slideshow-container {
+    width: 100%;
+    height:80%;
+    position: relative;
+    margin: auto;
+    z-index: -1;
+}
+
+.slideshow-container img{
+    height: auto;
+}
+.dotContainer {
+    margin-top: -2%;
+}
+.dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 3px;
+    transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+    background-color: none;
+    border: 0.1rem solid #FFFFFF;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+    z-index: 9999;
+  }
+  
+  .active{
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF; 
+  }
