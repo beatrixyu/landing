@@ -184,7 +184,7 @@ font-family: 'Lato', sans-serif;
 /* introduction part container 1 */
 .container-1{
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     display: flex;
 }
 .con1-left{
@@ -209,7 +209,7 @@ font-family: 'Lato', sans-serif;
     font-family: 'Bellefair', serif;    
     letter-spacing: -2px;
     font-weight: lighter;
-    margin: 20% 0 0 0;
+    margin: 15% 0 0 0;
     text-transform: uppercase;
 }
 
@@ -311,7 +311,7 @@ font-family: 'Lato', sans-serif;
 }  
 
 .container-2 main article h1{
-    font-size: 40px;
+    font-size: 36px;
     font-family: 'Bellefair', serif;    
     font-weight: 300;
     margin: 2% 0 5% 0;
@@ -342,7 +342,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .con2-text1{
-    width: 70%;
+    width: 65%;
     text-align: left;
     align-items: center;
 }
@@ -380,7 +380,7 @@ font-family: 'Lato', sans-serif;
   }
 
 .con2-text2 {
-    width: 70%;
+    width: 55%;
     margin-left: 20%;
     text-align: left;
     align-items: center;
@@ -414,7 +414,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .con2-text3{
-    width: 70%;
+    width: 65%;
     text-align: left;
     margin-top: -30%;
     }
@@ -465,7 +465,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .container-3 article h1{
-    font-size: 40px;
+    font-size: 36px;
     font-family: 'Bellefair', serif;    
     font-weight: lighter;
     letter-spacing: -2px;
@@ -487,7 +487,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .con3-text1 p{ 
-    width: 70%;
+    width: 65%;
     
 }
 
@@ -503,7 +503,7 @@ font-family: 'Lato', sans-serif;
     width: 57%;
 }
 .con3-text3 p {
-    width: 70%;
+    width: 65%;
 }
 
 
@@ -521,7 +521,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .con3-text5 p{
-    width: 70%;
+    width: 65%;
 }
 .con3-text6 {
     width: 43%;
@@ -534,7 +534,7 @@ font-family: 'Lato', sans-serif;
     width: 50%;
 }
 .con3-text7 p{
-    width: 80%;
+    width: 65%;
 }
 
 .con3-text8 {
@@ -838,7 +838,7 @@ footer p{
     }
 
     .container-1 {
-        height: 110vh
+        height: 105vh
     }
 
     .con1-left img {
@@ -881,7 +881,7 @@ footer p{
     }
 
     .container-2 main article h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .con2-text1 > p, .con2-text2 > p, .con2-text3 > p {
