@@ -354,6 +354,8 @@ font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin: 10% 0 5% 0;
     text-transform: uppercase;
+    padding-left: 70px;
+
 }
 
 .con2-text1 p {
@@ -966,23 +968,24 @@ footer p{
         padding: 0 30px;
     }
 
-    header{
+    header {
         height: 70vh;
+    }
+
+    .headerContainer {
+        height: 70vh;
+    }
+
+    .introContainer {
+        height: 50vh;
     }
 
     .intro {
         height: 55vh;
     }
 
-    header {
-        height: 80vh;
-    }
     .intro p {
         font-size: 32px;
-    }
-
-    .introContainer {
-        height: 73vh;
     }
 
     .container-1{
@@ -1262,11 +1265,22 @@ footer p{
 }
 
 @media only screen and (max-width: 414px) {
+
+    header {
+        height: 60vh;
+    }
+
+    .headerContainer {
+        height: 60vh;
+    }
+    .introContainer {
+        height: 50vh;
+
+    }
+
     .con1-left article h2 {
         font-size: 24px;
     }
-
-
 
     .container-2 main article h1 {
         font-size: 24px;
