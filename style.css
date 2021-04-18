@@ -308,7 +308,7 @@ font-family: 'Lato', sans-serif;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    width: 48%;
+    width: 45%;
 }  
 
 .container-2 main article h1{
@@ -327,7 +327,7 @@ font-family: 'Lato', sans-serif;
 
 .con2-sec1-left {
     display: flex;
-    width: 52%;
+    width: 55%;
     justify-content: flex-end;
     align-items: flex-end;
 }
@@ -377,7 +377,7 @@ font-family: 'Lato', sans-serif;
   }
 
   .con2-art2 article{
-    width: 52% !important;
+    width: 55% !important;
   }
 
 .con2-text2 {
@@ -406,7 +406,7 @@ font-family: 'Lato', sans-serif;
 
 .con2-sec2-img-div {
     height: 55vh;
-    width: 48%;
+    width: 45%;
 }
 
 .con2-sec2-img {
@@ -417,7 +417,7 @@ font-family: 'Lato', sans-serif;
 .con2-text3{
     width: 65%;
     text-align: left;
-    margin-top: -30%;
+    margin-top: -20%;
     }
     
 .con2-text3 h1 {
@@ -440,7 +440,7 @@ font-family: 'Lato', sans-serif;
 
 .con2-sec3-img-div{
     display: flex;
-    width: 52%;
+    width: 55%;
     justify-content: flex-end;
     align-items: flex-start;
 }
@@ -898,7 +898,7 @@ footer p{
     }
 
     .con2-text3 {
-        margin-top: -20%;
+        margin-top: -25%;
     }
 
     .container-3 {
