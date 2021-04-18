@@ -807,6 +807,10 @@ footer p{
         font-size: 15px
     }
 
+    .headerTitleSmall div{
+        width: 30%;
+    }
+
     .clickDownBtn {
         width: 25px;
         height: 25px;
@@ -910,8 +914,6 @@ footer p{
         line-height: 18px;
     }
 
-    .contactsContainer {
-    }
     .contactTitleBig p {
         font-size: 40px;
         margin: 20px 0 0 0;
