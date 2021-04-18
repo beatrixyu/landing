@@ -1019,7 +1019,7 @@ footer p{
 
     .con1-left article h2{
         margin: 5% 0;
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .con1-right{
@@ -1138,7 +1138,7 @@ footer p{
     }
 
     .container-3{
-    height: 200vh;
+    height: 280vh;
     margin: 1%;
     margin-top: 100px;
 
@@ -1218,8 +1218,17 @@ footer p{
     .contact {
         width: 100%;
     }
+
+    .callBtn p {
+        font-size: 22px;
+    }
+
+    .contactTitleSmall p {
+        font-size: 15px;
+    }
+
 .callBtn {
-    width: 40%;
+    width: 60%;
 }
 .callBtn img{
     width: 40px;
@@ -1250,5 +1259,40 @@ footer p{
       .clickUpBtn {
          width: auto;
       }
+}
 
+@media only screen and (max-width: 414px) {
+    .con1-left article h2 {
+        font-size: 24px;
+    }
+
+
+
+    .container-2 main article h1 {
+        font-size: 24px;
+    }
+
+    .container-3 {
+        height: 300vh;
+    }
+
+    .container-3 article h1 {
+        font-size: 24px;
+    }
+
+    .contactsContainer p {
+        font-size:30px;
+    }
+
+    .callBtn {
+        width: 100%;
+    }
+
+    .callBtn p {
+        font-size: 24px !important;
+    }
+
+    .contactTitleSmall p {
+        font-size: 12px !important;
+    }
 }
