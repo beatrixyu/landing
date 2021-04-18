@@ -5,7 +5,7 @@ body {
 
 html {
     margin: 0;
-    padding: 0 8%;
+    padding: 0 90px;
 }
 
 /* header */
@@ -211,19 +211,20 @@ font-family: 'Lato', sans-serif;
 .con1-left article{
     width: 60%;
     margin-left: 25%;
+    height: 100%;
 }
 
 .con1-left article h2{
     font-size: 40px;
     font-family: 'Bellefair', serif;    
     font-weight: 300;
-    margin: 10% 0 5% 0;
+    margin: 20% 0 0 0;
     text-transform: uppercase;
 }
 
 .con1-left article p{
     font-size: 16px;
-font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #000000;
     line-height: 25px;
     text-align: left;
@@ -300,13 +301,12 @@ font-family: 'Lato', sans-serif;
     background-color: #FFFFFF;
     border: 1px solid #FFFFFF; 
   }
-
   /* the end of gallary */
-  /* the begin of container 2 */
 
+  /* the begin of container 2 */
  .container-2 main {
     width: 100%;
-    height: 70vh; 
+    height: 65vh; 
     display: flex;
     justify-content: center;
  } 
@@ -316,7 +316,7 @@ font-family: 'Lato', sans-serif;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    width: 50%;
+    width: 48%;
 }  
 
 .container-2 main article h1{
@@ -333,7 +333,7 @@ font-family: 'Lato', sans-serif;
 
 .con2-sec1-left {
     display: flex;
-    width: 50%;
+    width: 52%;
     justify-content: flex-end;
     align-items: flex-end;
 }
@@ -344,13 +344,12 @@ font-family: 'Lato', sans-serif;
 }
 
 .con2-sec1-img2{
-    position: absolute;
     width: 40%;
     margin-left: -5%;
 }
 
 .con2-text1{
-    width: 60%;
+    width: 70%;
     text-align: left;
     align-items: center;
 }
@@ -383,6 +382,10 @@ font-family: 'Lato', sans-serif;
       height: 55vh !important;
   }
 
+  .con2-art2 article{
+    width: 52% !important;
+  }
+
 .con2-text2 {
     width: 70%;
     margin-left: 20%;
@@ -401,7 +404,7 @@ font-family: 'Lato', sans-serif;
 
 .con2-text2 p{
     font-size: 16px;
-font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #000000;
     line-height: 25px;
     text-align: left;
@@ -409,7 +412,7 @@ font-family: 'Lato', sans-serif;
 
 .con2-sec2-img-div {
     height: 55vh;
-    width: 50%;
+    width: 48%;
 }
 
 .con2-sec2-img {
@@ -443,7 +446,7 @@ font-family: 'Lato', sans-serif;
 
 .con2-sec3-img-div{
     display: flex;
-    width: 50%;
+    width: 52%;
     justify-content: flex-end;
     align-items: flex-start;
 }
@@ -457,7 +460,8 @@ font-family: 'Lato', sans-serif;
 
 /* the begin of container 4 */
 .container-3{
-    height: 230vh;
+    height: 200vh;
+    margin: 1%;
 
 }
 .container-3 article{
