@@ -138,15 +138,15 @@ font-family: 'Lato', sans-serif;
 /* intro line  */
 .intro {
     width: 100%;
-    height: 35vh;
+    height: 45vh;
     text-align: center;
 }
 
 .introContainer{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
-    margin-top: 70px;
+    height: 50%;
 }
 
 .introLine {
@@ -170,7 +170,7 @@ font-family: 'Lato', sans-serif;
     background-color: #000000;
 }
 
-.introContainer p {
+.intro p {
     font-size: 50px;
     text-transform: uppercase;
     font-family: 'Bellefair', serif;    
@@ -831,11 +831,11 @@ footer p{
     }
 
     .introContainer {
-        margin-top: 40px;
-        height: 33vh;
+        /* margin-top: 40px; */
+        height: 50%
     }
 
-    .introContainer p {
+    .intro p {
         font-size: 35px;
         line-height: 40px
     }
@@ -978,15 +978,20 @@ footer p{
     }
 
     .introContainer {
+        margin-top: 10%;
         height: 30vh;
     }
 
     .intro {
-        height: 35vh;
+        height: 45vh;
     }
 
     .intro p {
         font-size: 32px;
+    }
+
+    .introContainer {
+        height: auto;
     }
 
     .container-1{
@@ -1287,7 +1292,7 @@ footer p{
         height: 50vh;
     }
     .introContainer {
-        height: 30vh;
+        height: 50vh;
 
     }
 
