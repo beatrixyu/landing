@@ -977,11 +977,11 @@ footer p{
     }
 
     .introContainer {
-        height: 50vh;
+        height: 30vh;
     }
 
     .intro {
-        height: 55vh;
+        height: 35vh;
     }
 
     .intro p {
@@ -1050,11 +1050,19 @@ footer p{
         }
 
     .gallary{
-        height: 40vh;
+        height: 30vh;
+    }
+
+    .mySlides {
+        height: auto !important;
+    }
+
+    .dotContainer {
+        margin-top: -8%;
     }
     
     .container-2 {
-        height: 300vh;
+        height: auto;
     }
 
     .container-2 main {
@@ -1141,7 +1149,7 @@ footer p{
     }
 
     .container-3{
-    height: 280vh;
+    height: auto;
     margin: 1%;
     margin-top: 100px;
 
@@ -1222,6 +1230,10 @@ footer p{
         width: 100%;
     }
 
+    .contactsContainer {
+        margin-top: 50px;
+    }
+
     .callBtn p {
         font-size: 22px;
     }
@@ -1230,19 +1242,19 @@ footer p{
         font-size: 15px;
     }
 
-.callBtn {
-    width: 60%;
-}
-.callBtn img{
-    width: 40px;
-    height: 40px;
-    align-self: center;
-    justify-content: center;
-}
-
+    .callBtn {
+        width: 60%;
+    }
+    .callBtn img{
+        width: 40px;
+        height: 40px;
+        align-self: center;
+        justify-content: center;
+    }
+    
     footer {
-        height: 50vh;
-        margin-top: 5%;
+        height: auto;
+        margin: 5% 0;
     }
 
     footer main{
@@ -1267,14 +1279,14 @@ footer p{
 @media only screen and (max-width: 414px) {
 
     header {
-        height: 60vh;
+        height: 50vh;
     }
 
     .headerContainer {
-        height: 60vh;
+        height: 50vh;
     }
     .introContainer {
-        height: 50vh;
+        height: 30vh;
 
     }
 
@@ -1287,7 +1299,7 @@ footer p{
     }
 
     .container-3 {
-        height: 300vh;
+        height: auto;
     }
 
     .container-3 article h1 {
